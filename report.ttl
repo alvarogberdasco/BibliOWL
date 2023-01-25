@@ -15,27 +15,30 @@
 <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
         a       rdf:Property .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1674688200139HOMEAHMADREPOSPREVCLONE-XIWRONTOLOGIESBIBLIOWL>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-xiwR/ontologies/Bibli.owl" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-XIWRONTOLOGIESBIBLI.OWL> ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1674688200139> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
 <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
         a       owl:DatatypeProperty .
 
 <http://vocab.linkeddata.es/ontology/report#reportDate>
         a       owl:DatatypeProperty .
 
-<http://vocab.linkeddata.es/ontology/report#REPORT1674688200139>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1674688410091HOMEAHMADREPOSPREVCLONE-J9ZVONTOLOGIESBIBLIOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-J9zv/ontologies/Bibli.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-J9ZVONTOLOGIESBIBLI.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1674688410091> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#REPORT1674688410091>
         a           <http://vocab.linkeddata.es/ontology/report#Report> ;
-        rdfs:label  "Report created on Thu Jan 26 00:10:00 CET 2023" ;
+        rdfs:label  "Report created on Thu Jan 26 00:13:30 CET 2023" ;
         <http://vocab.linkeddata.es/ontology/report#hasEntry>
-                <http://vocab.linkeddata.es/ontology/report#ENTRY1674688200139REPORTTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1674688200139HOMEAHMADREPOSPREVCLONE-XIWRONTOLOGIESBIBLIOWL> ;
+                <http://vocab.linkeddata.es/ontology/report#ENTRY1674688410091REPORTTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1674688410091HOMEAHMADREPOSPREVCLONE-J9ZVONTOLOGIESBIBLIOWL> ;
         <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
                 "1" ;
         <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
@@ -43,16 +46,25 @@
         <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
                 "0" ;
         <http://vocab.linkeddata.es/ontology/report#reportDate>
-                "Thu Jan 26 00:10:00 CET 2023"^^xsd:dateTime .
-
-<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-        a       rdf:Property .
+                "Thu Jan 26 00:13:30 CET 2023"^^xsd:dateTime .
 
 <http://vocab.linkeddata.es/ontology/report#detectedProblem>
         a       rdf:Property .
 
 <http://vocab.linkeddata.es/ontology/report#Error>
         a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1674688410091REPORTTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab report.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#REPORT.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1674688410091> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
 
 <http://vocab.linkeddata.es/ontology/report#Entry>
         a       owl:Class .
@@ -66,17 +78,5 @@
 <http://vocab.linkeddata.es/ontology/report#GENERICERROR>
         a           <http://vocab.linkeddata.es/ontology/report#Error> ;
         rdfs:label  "Error: the vocabulary could not be loaded or processed" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1674688200139REPORTTTL>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab report.ttl" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#REPORT.TTL> ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1674688200139> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#error" .
 
 rdfs:label  a   owl:DatatypeProperty .
